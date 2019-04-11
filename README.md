@@ -1,11 +1,11 @@
 # Design Patterns
 
-# Creational Patterns
+## Creational Patterns
 
-# Structural Patterns
+## Structural Patterns
 * [Composite](src/Composite.kt)
 
-# Behavioral Patterns
+## Behavioral Patterns
 
 # Disclaimer
 Descriptions from [Gang of Four Design Patterns Reference Sheet](http://www.blackwasp.co.uk/GangOfFour.aspx)
