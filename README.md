@@ -5,7 +5,7 @@
 * Builder
 * Factory Method
 * Prototype
-* Singleton
+* [Singleton](src/Singleton.kt)
 
 ## Structural Patterns
 * Adapter
