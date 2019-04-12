@@ -38,12 +38,12 @@ fun main() {
     }.show()
 
     dialog {
-        title = "For Maria"
+        title = "For Mike"
     }.show()
 }
 
 /* Output
  *
  * Showing dialog 'For John: with a message'
- * Showing dialog 'For Maria: no message'
+ * Showing dialog 'For Mike: no message'
  */

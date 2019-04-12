@@ -12,7 +12,7 @@ data class Message(val recipient: String, val message: String)
 /* Usage */
 fun main() {
     val message = Message("John", "Have you heard about this thing?")
-    val messageCopy = message.copy(recipient = "Maria")
+    val messageCopy = message.copy(recipient = "Mike")
 
     println("message goes to ${message.recipient} with the message '${message.message}'")
     println("messageCopy goes to ${messageCopy.recipient} with the message '${messageCopy.message}'")
@@ -21,5 +21,5 @@ fun main() {
 /* Output
  *
  * message goes to John with the message 'Have you heard about this thing?'
- * messageCopy goes to Maria with the message 'Have you heard about this thing?'
+ * messageCopy goes to Mike with the message 'Have you heard about this thing?'
  */

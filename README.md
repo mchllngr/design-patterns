@@ -25,7 +25,7 @@
 * Memento
 * Observer
 * State
-* Strategy
+* [Strategy](src/Strategy.kt)
 * Template Method
 * Visitor
 
