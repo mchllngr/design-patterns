@@ -1,11 +1,33 @@
 # Design Patterns
 
 ## Creational Patterns
+* Abstract Factory
+* Builder
+* Factory Method
+* Prototype
+* Singleton
 
 ## Structural Patterns
+* Adapter
+* Bridge
 * [Composite](src/Composite.kt)
+* Decorator
+* Facade
+* Flyweight
+* Proxy
 
 ## Behavioral Patterns
+* Chain of Responsibility
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* Memento
+* Observer
+* State
+* Strategy
+* Template Method
+* Visitor
 
 # Disclaimer
 Descriptions from [Gang of Four Design Patterns Reference Sheet](http://www.blackwasp.co.uk/GangOfFour.aspx)
