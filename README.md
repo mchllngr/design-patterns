@@ -2,7 +2,7 @@
 
 ## Creational Patterns
 * [Abstract Factory](src/AbstractFactory.kt)
-* Builder
+* [Builder](src/Builder.kt)
 * [Factory Method](src/FactoryMethod.kt)
 * [Prototype](src/Prototype.kt)
 * [Singleton](src/Singleton.kt)
