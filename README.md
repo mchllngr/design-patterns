@@ -8,7 +8,7 @@
 * [Singleton](src/Singleton.kt)
 
 ## Structural Patterns
-* Adapter
+* [Adapter](src/Adapter.kt)
 * Bridge
 * [Composite](src/Composite.kt)
 * Decorator
