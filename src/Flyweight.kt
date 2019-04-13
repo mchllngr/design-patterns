@@ -7,12 +7,12 @@
  */
 
 /* Flyweight */
-interface IBankNote {
+interface BankNote {
     val value: Int
 }
 
 /* ConcreteFlyweight */
-class BankNote(override val value: Int) : IBankNote {
+class BankNoteImpl(override val value: Int) : BankNote {
 
     init {
         println("Creating BankNote with value $value")
@@ -22,12 +22,12 @@ class BankNote(override val value: Int) : IBankNote {
 /* FlyweightFactory */
 class BankNoteFactory {
 
-    private val bankNotes = HashMap<Int, IBankNote>()
+    private val bankNotes = HashMap<Int, BankNote>()
 
-    fun getBankNote(value: Int): IBankNote {
+    fun getBankNote(value: Int): BankNote {
         val bankNote = bankNotes[value]
         if (bankNote != null) return bankNote
-        return BankNote(value).apply { bankNotes[value] = this }
+        return BankNoteImpl(value).apply { bankNotes[value] = this }
     }
 }
 
@@ -44,11 +44,11 @@ fun main() {
 /* Output
  *
  * Creating BankNote with value 5
- * bankNote 5: BankNote@7ea987ac
+ * bankNote 5: BankNoteImpl@7ea987ac
  * Creating BankNote with value 10
- * bankNote 10: BankNote@12a3a380
- * bankNote 5: BankNote@7ea987ac
+ * bankNote 10: BankNoteImpl@12a3a380
+ * bankNote 5: BankNoteImpl@7ea987ac
  * Creating BankNote with value 20
- * bankNote 20: BankNote@29453f44
- * bankNote 10: BankNote@12a3a380
+ * bankNote 20: BankNoteImpl@29453f44
+ * bankNote 10: BankNoteImpl@12a3a380
  */
