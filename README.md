@@ -17,7 +17,7 @@
 * [Proxy](src/Proxy.kt)
 
 ## Behavioral Patterns
-* Chain of Responsibility
+* [Chain of Responsibility](src/ChainOfResponsibility.kt)
 * Command
 * Interpreter
 * Iterator
