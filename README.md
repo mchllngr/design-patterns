@@ -12,7 +12,7 @@
 * [Bridge](src/Bridge.kt)
 * [Composite](src/Composite.kt)
 * [Decorator](src/Decorator.kt)
-* Facade
+* [Facade](src/Facade.kt)
 * Flyweight
 * Proxy
 
