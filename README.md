@@ -14,7 +14,7 @@
 * [Decorator](src/Decorator.kt)
 * [Facade](src/Facade.kt)
 * [Flyweight](src/Flyweight.kt)
-* Proxy
+* [Proxy](src/Proxy.kt)
 
 ## Behavioral Patterns
 * Chain of Responsibility
