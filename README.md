@@ -9,7 +9,7 @@
 
 ## Structural Patterns
 * [Adapter](src/Adapter.kt)
-* Bridge
+* [Bridge](src/Bridge.kt)
 * [Composite](src/Composite.kt)
 * Decorator
 * Facade
