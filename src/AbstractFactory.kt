@@ -13,7 +13,7 @@ class Windows : OperationSystem
 
 class Linux : OperationSystem
 
-/* Abstract Factory */
+/* AbstractFactory */
 abstract class OperationSystemFactory<T : OperationSystem> {
 
     companion object {
@@ -28,11 +28,12 @@ abstract class OperationSystemFactory<T : OperationSystem> {
     abstract fun create(): T
 }
 
-/* Concrete Factories */
+/* ConcreteFactoryA */
 class WindowsFactory : OperationSystemFactory<Windows>() {
     override fun create() = Windows()
 }
 
+/* ConcreteFactoryB */
 class LinuxFactory : OperationSystemFactory<Linux>() {
     override fun create() = Linux()
 }

@@ -21,8 +21,10 @@ interface Currency {
     }
 }
 
-/* ConcreteProduct */
+/* ConcreteProductA */
 class Euro : Currency
+
+/* ConcreteProductB */
 class Dollar : Currency
 
 /* Usage */

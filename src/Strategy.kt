@@ -9,8 +9,10 @@
 /* StrategyBase */
 typealias Discount = (Double) -> Double
 
-/* ConcreteStrategy */
+/* ConcreteStrategyA */
 val familyDiscount = { raw: Double -> raw / 2 }
+
+/* ConcreteStrategyB */
 val noDiscount = { raw: Double -> raw }
 
 /* Client */

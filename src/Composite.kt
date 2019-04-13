@@ -12,17 +12,19 @@ abstract class Part {
     abstract val price: Int
 }
 
-/* Leafs */
+/* LeafA */
 class Motherboard : Part() {
     override val name = "Motherboard"
     override val price = 100
 }
 
+/* LeafB */
 class CPU : Part() {
     override val name = "CPU"
     override val price = 200
 }
 
+/* LeafC */
 class HardDrive : Part() {
     override val name = "HardDrive"
     override val price = 50

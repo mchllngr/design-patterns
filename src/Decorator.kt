@@ -19,12 +19,13 @@ class DefaultText(private val string: String) : Text {
     override fun get() = string
 }
 
-/* ConcreteDecorators4 */
+/* ConcreteDecoratorA */
 class UnderlineText(private val text: Text) : Text {
 
     override fun get() = "<u>${text.get()}</u>"
 }
 
+/* ConcreteDecoratorB */
 class BoldText(private val text: Text) : Text {
 
     override fun get() = "<b>${text.get()}</b>"
