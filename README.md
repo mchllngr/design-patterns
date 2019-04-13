@@ -11,7 +11,7 @@
 * [Adapter](src/Adapter.kt)
 * [Bridge](src/Bridge.kt)
 * [Composite](src/Composite.kt)
-* Decorator
+* [Decorator](src/Decorator.kt)
 * Facade
 * Flyweight
 * Proxy
