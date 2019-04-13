@@ -6,6 +6,7 @@
  * utilised in a standard manner.
  */
 
+/* Component */
 abstract class Part {
     abstract val name: String
     abstract val price: Int

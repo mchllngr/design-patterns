@@ -7,7 +7,7 @@
  * required by the client.
  */
 
-/* ITarget */
+/* Target */
 interface Movable {
     fun move()
 }

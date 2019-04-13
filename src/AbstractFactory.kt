@@ -5,8 +5,10 @@
  * by the factory are determined at run-time.
  */
 
+/* AbstractProduct */
 interface OperationSystem
 
+/* ConcreteProduct */
 class Windows : OperationSystem
 
 class Linux : OperationSystem
@@ -26,7 +28,7 @@ abstract class OperationSystemFactory<T : OperationSystem> {
     abstract fun create(): T
 }
 
-/* Concrete Factory */
+/* Concrete Factories */
 class WindowsFactory : OperationSystemFactory<Windows>() {
     override fun create() = Windows()
 }

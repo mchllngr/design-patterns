@@ -6,7 +6,12 @@
  * at run-time.
  */
 
+/* StrategyBase */
 typealias Discount = (Double) -> Double
+
+/* ConcreteStrategy */
+val familyDiscount = { raw: Double -> raw / 2 }
+val noDiscount = { raw: Double -> raw }
 
 /* Client */
 class Customer(val name: String, val rawPrice: Double, val discount: Discount) {
@@ -16,10 +21,6 @@ class Customer(val name: String, val rawPrice: Double, val discount: Discount) {
             return discount(rawPrice)
         }
 }
-
-/* Strategies */
-val familyDiscount = { raw: Double -> raw / 2 }
-val noDiscount = { raw: Double -> raw }
 
 /* Usage */
 fun main() {

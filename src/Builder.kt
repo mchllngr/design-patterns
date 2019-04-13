@@ -9,6 +9,7 @@
  * the construction algorithm.
  */
 
+/* Product */
 class Dialog(
     private val title: String,
     private val message: String
@@ -19,7 +20,7 @@ class Dialog(
     }
 }
 
-/* Builder */
+/* Builder / ConcreteBuilder */
 class DialogBuilder {
 
     var title: String = "no title"

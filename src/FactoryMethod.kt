@@ -9,6 +9,7 @@
 
 enum class Country { GERMANY, SPAIN, USA }
 
+/* ProductBase */
 interface Currency {
     companion object {
 
@@ -20,6 +21,7 @@ interface Currency {
     }
 }
 
+/* ConcreteProduct */
 class Euro : Currency
 class Dollar : Currency
 
