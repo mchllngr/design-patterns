@@ -13,7 +13,7 @@
 * [Composite](src/Composite.kt)
 * [Decorator](src/Decorator.kt)
 * [Facade](src/Facade.kt)
-* Flyweight
+* [Flyweight](src/Flyweight.kt)
 * Proxy
 
 ## Behavioral Patterns
