@@ -24,7 +24,7 @@
 * [Mediator](src/Mediator.kt)
 * [Memento](src/Memento.kt)
 * [Observer](src/Observer.kt)
-* State
+* [State](src/State.kt)
 * [Strategy](src/Strategy.kt)
 * Template Method
 * Visitor
