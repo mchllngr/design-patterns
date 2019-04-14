@@ -27,7 +27,7 @@
 * [State](src/State.kt)
 * [Strategy](src/Strategy.kt)
 * [Template Method](src/TemplateMethod.kt)
-* Visitor
+* [Visitor](src/Visitor.kt)
 
 # Disclaimer
 Descriptions from [Gang of Four Design Patterns Reference Sheet](http://www.blackwasp.co.uk/GangOfFour.aspx)
