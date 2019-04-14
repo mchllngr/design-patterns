@@ -23,7 +23,7 @@
 * [Iterator](src/Iterator.kt)
 * [Mediator](src/Mediator.kt)
 * [Memento](src/Memento.kt)
-* Observer
+* [Observer](src/Observer.kt)
 * State
 * [Strategy](src/Strategy.kt)
 * Template Method
