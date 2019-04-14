@@ -20,7 +20,7 @@
 * [Chain of Responsibility](src/ChainOfResponsibility.kt)
 * [Command](src/Command.kt)
 * [Interpreter](src/Interpreter.kt)
-* Iterator
+* [Iterator](src/Iterator.kt)
 * Mediator
 * Memento
 * Observer
