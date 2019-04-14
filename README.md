@@ -19,7 +19,7 @@
 ## Behavioral Patterns
 * [Chain of Responsibility](src/ChainOfResponsibility.kt)
 * [Command](src/Command.kt)
-* Interpreter
+* [Interpreter](src/Interpreter.kt)
 * Iterator
 * Mediator
 * Memento
