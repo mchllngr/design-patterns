@@ -21,7 +21,7 @@
 * [Command](src/Command.kt)
 * [Interpreter](src/Interpreter.kt)
 * [Iterator](src/Iterator.kt)
-* Mediator
+* [Mediator](src/Mediator.kt)
 * Memento
 * Observer
 * State
