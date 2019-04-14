@@ -22,7 +22,7 @@
 * [Interpreter](src/Interpreter.kt)
 * [Iterator](src/Iterator.kt)
 * [Mediator](src/Mediator.kt)
-* Memento
+* [Memento](src/Memento.kt)
 * Observer
 * State
 * [Strategy](src/Strategy.kt)
