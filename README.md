@@ -26,7 +26,7 @@
 * [Observer](src/Observer.kt)
 * [State](src/State.kt)
 * [Strategy](src/Strategy.kt)
-* Template Method
+* [Template Method](src/TemplateMethod.kt)
 * Visitor
 
 # Disclaimer
